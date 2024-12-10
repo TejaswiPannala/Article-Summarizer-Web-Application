@@ -9,7 +9,7 @@ function App() {
   const handleInput= (e) => {
     setText(e.target.value)
   }
-
+  
   const summarize = async() => {
     const options = {
       method: 'GET',
