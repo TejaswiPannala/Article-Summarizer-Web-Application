@@ -9,6 +9,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base:"/Article-Summarizer-Web-Application/",
   css: {
     postcss: './postcss.config.cjs', // point to the new .cjs file
   }
